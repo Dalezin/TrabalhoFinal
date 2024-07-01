@@ -49,7 +49,7 @@ int total_funcionarios = 0;
 int total_estadias = 0;
 int total_quartos = 0;
 
-// Função para calcular quantidade de dias entre duas datas no formato DD/MM/YYYY
+// Função para calcular quantidade de dias entre duas datas
 int calcular_diarias(char *data_entrada, char *data_saida) {
     struct tm entrada = {0}, saida = {0};
     strptime(data_entrada, "%d/%m/%Y", &entrada);
